@@ -1,0 +1,8 @@
+# XAI-for-Energy-Prediction-and-Anomaly-Detection-on-GEP-dataset
+This repository contains code for our short paper. DOI - https://doi.org/10.1145/3600100.3626638
+
+## ABSTRACT
+
+In recent years, the advancement of Artificial Intelligence (AI) and Advanced Metering Infrastructure (AMI) has led to the development of data-driven methods for energy prediction and anomaly detection. These methods provide automated decision support to building operators in managing and preventing energy loss. Despite the advantages of having sophisticated data-driven models, one major drawback is their lack of transparency, which limits their widespread use. The paper explores the use of the SHapely Additive exPlanations (SHAP), an explainable AI algorithm, to enhance transparency in energy prediction and anomaly detection models. Energy prediction is treated as a regression task, while anomaly detection as a binary classification. The study employs LightGBM models for both anomaly detection and energy prediction, which are tested on a large dataset containing hourly smart metering data from over 200 real buildings. The energy prediction model achieves an R2 score of 0.975, while the anomaly detection model obtains an AUC-ROC score of 0.942. These models are augmented with SHAP value-based visualizations, which provide both local and global explanations of these models, offering valuable insights into the factors influencing their predictions. Additionally, the present study introduces a framework that seamlessly integrates feature transformations within the model, while SHAP operates on the interpretable feature space, enhancing the explanations provided by SHAP values.
+
+
